@@ -1,0 +1,5 @@
+<h1>Import Posts</h1>
+<%= form_for @post_import do |f| %>
+<%= f.file_field :file %>
+<%= f.submit 'Import'%>
+<% end %>
